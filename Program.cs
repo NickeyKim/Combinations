@@ -5,10 +5,10 @@ namespace Combinations
 {
 	public class Combinations
 	{
-		/* Each Char From the start of input to the End of string
+		/*  Each Char -> from the start of input to the End of string
 		 * 		Choose the Char at Current Position
 		 * 		Print Current Char
-		 * 		if( Current Char is not the last char of Strin)
+		 * 		if( Current Char is not the last char of String )
 		 * 			Start Recursion to the next Char
 		 * 		remove the last char
 		 */ 
@@ -52,7 +52,7 @@ namespace Combinations
 		{
 			Combinations combination = new Combinations ("wxyz");
 			combination.m_combine ();
-			Console.WriteLine ("Hello World!");
+			Console.WriteLine ("the result of wxyz combinations");
 		}
 	}
 }
